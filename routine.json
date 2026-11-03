@@ -1,0 +1,148 @@
+{
+  "classes": [
+    {
+      "id": "eee2a-sun-cse110-1450",
+      "batch": "EEE 2A",
+      "day": "Sunday",
+      "startTime": "14:50",
+      "endTime": "17:30",
+      "subjectCode": "CSE 110",
+      "subjectName": "CSE 110",
+      "room": "CSE Lab 3",
+      "facultyName": "Md. Zahid Hassan Rabbi",
+      "type": "lab"
+    },
+    {
+      "id": "eee2a-mon-phy103-0830",
+      "batch": "EEE 2A",
+      "day": "Monday",
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "subjectCode": "PHY 103",
+      "subjectName": "PHY 103",
+      "room": "306",
+      "facultyName": "Mimi Mondol",
+      "type": "theory"
+    },
+    {
+      "id": "eee2a-mon-math105-0925",
+      "batch": "EEE 2A",
+      "day": "Monday",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "subjectCode": "MATH 105",
+      "subjectName": "MATH 105",
+      "room": "302",
+      "facultyName": "Moyuri Khatun",
+      "type": "theory"
+    },
+    {
+      "id": "eee2a-mon-eee105-1020",
+      "batch": "EEE 2A",
+      "day": "Monday",
+      "startTime": "10:20",
+      "endTime": "11:10",
+      "subjectCode": "EEE 105",
+      "subjectName": "EEE 105",
+      "room": "306",
+      "facultyName": "Tanmoy Kumar Paul",
+      "type": "theory"
+    },
+    {
+      "id": "eee2a-mon-phy103-1140",
+      "batch": "EEE 2A",
+      "day": "Monday",
+      "startTime": "11:40",
+      "endTime": "12:30",
+      "subjectCode": "PHY 103",
+      "subjectName": "PHY 103",
+      "room": "EEE Lab 1",
+      "facultyName": "Mimi Mondol",
+      "type": "lab"
+    },
+    {
+      "id": "eee2a-mon-lang104-1450",
+      "batch": "EEE 2A",
+      "day": "Monday",
+      "startTime": "14:50",
+      "endTime": "17:30",
+      "subjectCode": "LANG 104",
+      "subjectName": "LANG 104",
+      "room": "CSE Lab 1",
+      "facultyName": "Tajmul Hasan",
+      "type": "lab"
+    },
+    {
+      "id": "eee2a-tue-cse109-0830",
+      "batch": "EEE 2A",
+      "day": "Tuesday",
+      "startTime": "08:30",
+      "endTime": "09:20",
+      "subjectCode": "CSE 109",
+      "subjectName": "CSE 109",
+      "room": "EEE Lab 1",
+      "facultyName": "Rohul Amin",
+      "type": "lab"
+    },
+    {
+      "id": "eee2a-tue-phy103-0925",
+      "batch": "EEE 2A",
+      "day": "Tuesday",
+      "startTime": "09:25",
+      "endTime": "10:15",
+      "subjectCode": "PHY 103",
+      "subjectName": "PHY 103",
+      "room": "EEE Lab 1",
+      "facultyName": "Mimi Mondol",
+      "type": "lab"
+    },
+    {
+      "id": "eee2a-tue-math105-1020",
+      "batch": "EEE 2A",
+      "day": "Tuesday",
+      "startTime": "10:20",
+      "endTime": "11:10",
+      "subjectCode": "MATH 105",
+      "subjectName": "MATH 105",
+      "room": "302",
+      "facultyName": "Moyuri Khatun",
+      "type": "theory"
+    },
+    {
+      "id": "eee2a-tue-math105-1140",
+      "batch": "EEE 2A",
+      "day": "Tuesday",
+      "startTime": "11:40",
+      "endTime": "12:30",
+      "subjectCode": "MATH 105",
+      "subjectName": "MATH 105",
+      "room": "302",
+      "facultyName": "Moyuri Khatun",
+      "type": "theory"
+    },
+    {
+      "id": "eee2a-tue-eee105-1235",
+      "batch": "EEE 2A",
+      "day": "Tuesday",
+      "startTime": "12:35",
+      "endTime": "14:30",
+      "subjectCode": "EEE 105",
+      "subjectName": "EEE 105",
+      "room": "EEE Lab 2",
+      "facultyName": "Tanmoy Kumar Paul",
+      "type": "lab"
+    },
+    {
+      "id": "eee2a-thu-cse109-0830",
+      "batch": "EEE 2A",
+      "day": "Thursday",
+      "startTime": "08:30",
+      "endTime": "10:15",
+      "subjectCode": "CSE 109",
+      "subjectName": "CSE 109",
+      "room": "305A",
+      "facultyName": "Rohul Amin",
+      "type": "theory"
+    }
+  ]
+}

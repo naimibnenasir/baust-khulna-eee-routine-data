@@ -1,0 +1,22 @@
+{
+  "semesterName": "BAUST EEE - July 2026 Routine",
+  "semesterStartDate": "2026-11-01",
+  "semesterEndDate": "2027-02-28",
+  "minAppVersion": "1.0.0",
+  "latestVersion": "1.0.0",
+  "apkUrl": "https://github.com/naimibnenasir/baust-khulna-eee-routine-data/releases/latest",
+  "holidays": [
+    {
+      "date": "2026-12-16",
+      "name": "Victory Day (sample)"
+    },
+    {
+      "date": "2026-12-25",
+      "name": "Christmas Day (sample)"
+    },
+    {
+      "date": "2027-01-01",
+      "name": "New Year's Day (sample)"
+    }
+  ]
+}

@@ -3,8 +3,9 @@
   "semesterStartDate": "2026-08-02",
   "semesterEndDate": "2026-12-26",
   "minAppVersion": "1.0.0",
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.0.2",
   "apkUrl": "https://github.com/naimibnenasir/baust-khulna-eee-routine-data/releases/latest",
+  "examSchedule": [],
   "holidays": [
     { "date": "2026-08-05", "name": "July Mass Uprising Day" },
     { "date": "2026-08-12", "name": "Akheri Chahar Shomba (subject to moon sighting)" },

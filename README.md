@@ -33,8 +33,14 @@ The top level is an object with these fields:
 | `minAppVersion` | string | Minimum compatible app version |
 | `latestVersion` | string | Latest app version for a later update checker |
 | `apkUrl` | string | GitHub Releases page or APK link |
+| `examSchedule` | array | Published exam entries; leave empty to keep the Exams tab hidden (see below) |
 | `holidays` | array | Objects with a `date` (`YYYY-MM-DD`) and `name` |
 | `academicEvents` | array | Objects with `startDate`, `endDate`, `name`, and `noClasses`; shown in the app calendar |
 | `calendarNote` | string | A note shown below the calendar month grid |
 
 Keep valid JSON syntax: use double quotes, commas between items, and no comma after the final item. Keep each class `id` unique. Upload both files to the repository's `main` branch root so they appear beside the repository README.
+
+
+### Publishing an exam schedule
+
+Add one object per exam to `examSchedule` in `config.json`. The Exams tab appears automatically when this array contains at least one entry. Each entry must include `date` (`YYYY-MM-DD`), `startTime` and `endTime` (`HH:mm`, 24-hour), `level`, `term`, `examType` (such as `Midterm` or `Final`), and `subjectCode`. `subjectName` is optional and defaults to the code. Do not include a room field. Entries are filtered for the signed-in student's level and term; completed exams are removed automatically. Keep the array empty when no exam routine is published.

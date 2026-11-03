@@ -1,8 +1,8 @@
 # Routine data files
 
-These are files for the public `baust-khulna-eee-routine-data` GitHub repository. The source is the July 2026 BAUST Khulna EEE class routine PDF. The section labels map to semesters as follows: EEE 1A = Level 1 Term 1, EEE 2A = Level 1 Term 2, EEE 3A = Level 2 Term 1, EEE 4A = Level 2 Term 2, and EEE 5A = Level 3 Term 1. The app uses the student's Firestore `level` and `term` fields to select a section. The PDF lists course codes rather than full course titles, so `subjectName` currently repeats each course code. The schedule does not state semester dates or a holiday list; the semester dates and holiday entries in `config.json` are still examples and must be replaced with the approved academic calendar.
+These are files for the public `baust-khulna-eee-routine-data` GitHub repository. The source is the July 2026 BAUST Khulna EEE class routine PDF, with the EEE 4A MATH 213 and EEE 217 changes supplied by the user. The section labels map to semesters as follows: EEE 1A = Level 1 Term 1, EEE 2A = Level 1 Term 2, EEE 3A = Level 2 Term 1, EEE 4A = Level 2 Term 2, and EEE 5A = Level 3 Term 1. The app uses the student's Firestore `level` and `term` fields to select a section. The PDF lists course codes rather than full course titles, so `subjectName` currently repeats each course code. The July 2026 semester dates and academic events in `config.json` come from the BAUSTK Academic Calendar 2026.
 
-Each class object's `batch` field stores its routine section label (for example, `EEE 2A`). Keep the section labels as printed in the PDF; admission batch values such as `2nd` do not identify the routine section. Consecutive periods shown as one class are represented as a single session. The current JSON contains the transcribed EEE 2A entries; other sections still need their entries added before students in those semesters will see a complete timetable.
+Each class object's `batch` field stores its routine section label (for example, `EEE 4A`). Keep the section labels as printed in the PDF; admission batch values such as `2nd` do not identify the routine section. Consecutive periods shown as one class are represented as a single session. The current JSON contains transcribed entries for all five sections: EEE 1A, EEE 2A, EEE 3A, EEE 4A, and EEE 5A. The July 2026 semester dates, holidays, class weeks, exams, preparatory leave, and result events have been added from the BAUSTK Academic Calendar 2026.
 
 ## `routine.json` format
 
@@ -34,5 +34,7 @@ The top level is an object with these fields:
 | `latestVersion` | string | Latest app version for a later update checker |
 | `apkUrl` | string | GitHub Releases page or APK link |
 | `holidays` | array | Objects with a `date` (`YYYY-MM-DD`) and `name` |
+| `academicEvents` | array | Objects with `startDate`, `endDate`, `name`, and `noClasses`; shown in the app calendar |
+| `calendarNote` | string | A note shown below the calendar month grid |
 
 Keep valid JSON syntax: use double quotes, commas between items, and no comma after the final item. Keep each class `id` unique. Upload both files to the repository's `main` branch root so they appear beside the repository README.

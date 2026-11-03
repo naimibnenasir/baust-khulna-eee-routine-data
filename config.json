@@ -1,22 +1,47 @@
 {
-  "semesterName": "BAUST EEE - July 2026 Routine",
-  "semesterStartDate": "2026-11-01",
-  "semesterEndDate": "2027-02-28",
+  "semesterName": "BAUST EEE - July 2026 Semester",
+  "semesterStartDate": "2026-08-02",
+  "semesterEndDate": "2026-12-26",
   "minAppVersion": "1.0.0",
   "latestVersion": "1.0.0",
   "apkUrl": "https://github.com/naimibnenasir/baust-khulna-eee-routine-data/releases/latest",
   "holidays": [
-    {
-      "date": "2026-12-16",
-      "name": "Victory Day (sample)"
-    },
-    {
-      "date": "2026-12-25",
-      "name": "Christmas Day (sample)"
-    },
-    {
-      "date": "2027-01-01",
-      "name": "New Year's Day (sample)"
-    }
-  ]
+    { "date": "2026-08-05", "name": "July Mass Uprising Day" },
+    { "date": "2026-08-12", "name": "Akheri Chahar Shomba (subject to moon sighting)" },
+    { "date": "2026-08-26", "name": "Eid-e-Milad-un-Nabi (subject to moon sighting)" },
+    { "date": "2026-09-04", "name": "Janmashtami" },
+    { "date": "2026-09-23", "name": "Fateha-e-Yajdaham (subject to moon sighting)" },
+    { "date": "2026-10-20", "name": "Durga Puja" },
+    { "date": "2026-10-21", "name": "Durga Puja" },
+    { "date": "2026-10-22", "name": "Durga Puja" },
+    { "date": "2026-12-16", "name": "Victory Day" },
+    { "date": "2026-12-25", "name": "Christmas Day" }
+  ],
+  "academicEvents": [
+    { "startDate": "2026-08-02", "endDate": "2026-08-08", "name": "Class Week 1 · July Semester classes start", "noClasses": false },
+    { "startDate": "2026-08-04", "endDate": "2026-08-10", "name": "RIB Examination", "noClasses": false },
+    { "startDate": "2026-08-09", "endDate": "2026-08-15", "name": "Class Week 2", "noClasses": false },
+    { "startDate": "2026-08-11", "endDate": "2026-08-11", "name": "RIB Result Submission", "noClasses": false },
+    { "startDate": "2026-08-13", "endDate": "2026-08-13", "name": "RIB Result Publication", "noClasses": false },
+    { "startDate": "2026-08-16", "endDate": "2026-08-22", "name": "Class Week 3", "noClasses": false },
+    { "startDate": "2026-08-23", "endDate": "2026-08-29", "name": "Class Week 4", "noClasses": false },
+    { "startDate": "2026-08-30", "endDate": "2026-09-05", "name": "Class Week 5", "noClasses": false },
+    { "startDate": "2026-09-06", "endDate": "2026-09-12", "name": "Class Week 6", "noClasses": false },
+    { "startDate": "2026-09-13", "endDate": "2026-09-19", "name": "Class Week 7", "noClasses": false },
+    { "startDate": "2026-09-20", "endDate": "2026-09-26", "name": "Midterm Examination", "noClasses": true },
+    { "startDate": "2026-09-27", "endDate": "2026-10-03", "name": "Class Week 8", "noClasses": false },
+    { "startDate": "2026-10-04", "endDate": "2026-10-10", "name": "Class Week 9", "noClasses": false },
+    { "startDate": "2026-10-11", "endDate": "2026-10-17", "name": "Class Week 10", "noClasses": false },
+    { "startDate": "2026-10-18", "endDate": "2026-10-24", "name": "Class Week 11", "noClasses": false },
+    { "startDate": "2026-10-25", "endDate": "2026-10-31", "name": "Class Week 12", "noClasses": false },
+    { "startDate": "2026-11-01", "endDate": "2026-11-07", "name": "Class Week 13", "noClasses": false },
+    { "startDate": "2026-11-08", "endDate": "2026-11-14", "name": "Class Week 14 · Classes end November 14", "noClasses": false },
+    { "startDate": "2026-11-15", "endDate": "2026-11-28", "name": "Preparatory Leave (PL)", "noClasses": true },
+    { "startDate": "2026-11-29", "endDate": "2026-12-19", "name": "Semester Final Examination", "noClasses": true },
+    { "startDate": "2026-12-20", "endDate": "2026-12-26", "name": "Semester Break", "noClasses": true },
+    { "startDate": "2026-12-28", "endDate": "2026-12-28", "name": "Result Submission", "noClasses": true },
+    { "startDate": "2026-12-31", "endDate": "2026-12-31", "name": "Result Publication", "noClasses": true },
+    { "startDate": "2026-12-27", "endDate": "2027-01-09", "name": "Registration for January 2027 Semester", "noClasses": true }
+  ],
+  "calendarNote": "Dates marked subject to moon sighting may change."
 }
